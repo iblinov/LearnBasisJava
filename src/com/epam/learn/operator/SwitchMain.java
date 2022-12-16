@@ -2,17 +2,18 @@ package com.epam.learn.operator;
 
 public class SwitchMain {
   public static void main(String[] args) {
-    int number = 3;
-    switch (number) {
-      case 1 -> number *= 2;
-      case 2 -> number *= 3;
-      case 3 -> number *= 4;
+    var number = 7;
+    int result = method(number);
+    System.out.println(result);
+  }
+  static int method(int number) {
+    return switch (number) {
+      case 1, 2, 3 -> number *= 3;
+      case 7 -> number *= 4;
       case 4 -> number *= 5;
-      default -> {
-        System.out.println("out of range");
-        number += 100;
-      }
-    }
-    System.out.println(number);
+      default ->  {
+        System.out.println("range");
+        yield number += 100;}
+    };
   }
 }

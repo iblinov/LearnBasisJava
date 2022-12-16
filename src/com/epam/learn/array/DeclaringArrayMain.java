@@ -3,6 +3,7 @@ package com.epam.learn.array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public class DeclaringArrayMain {
   public static void main(String[] args) {
@@ -15,5 +16,6 @@ public class DeclaringArrayMain {
     var n = Integer.parseInt("6667");
     var m = Arrays.stream(a).asLongStream().average();
     var list = new ArrayList<String>();
+   
   }
 }

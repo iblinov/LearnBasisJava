@@ -1,13 +1,29 @@
 package com.epam.learn.entity;
 
+/**
+ * The type Person.
+ */
 public abstract class Person {
   private int personId;
   private String lastname;
 
+  /**
+   * Instantiates a new Person.
+   *
+   * @param personId the person id
+   * @param lastname the lastname
+   */
   public Person(int personId, String lastname) {
     this.personId = personId;
     this.lastname = lastname;
   }
+
+  /**
+   * Eq boolean.
+   *
+   * @param lastname the lastname
+   * @return the boolean
+   */
   boolean eq(String lastname) {
     return this.lastname != null ? this.lastname.equals(lastname) : this.lastname == lastname;
   }
@@ -22,6 +38,7 @@ public abstract class Person {
 
   @Override
   public boolean equals(Object o) {
+
     if (this == o) return true;
     if (o == null) return false;
     if (getClass() != o.getClass()) return false;
