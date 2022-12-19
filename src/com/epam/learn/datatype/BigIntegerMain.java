@@ -1,4 +1,4 @@
-package com.epam.learn.datatypes;
+package com.epam.learn.datatype;
 
 import java.math.BigInteger;
 import java.util.Random;

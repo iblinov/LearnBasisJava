@@ -1,4 +1,4 @@
-package com.epam.learn.datatypes;
+package com.epam.learn.datatype;
 
 public class ShortMain {
   public static void main(String[] args) {

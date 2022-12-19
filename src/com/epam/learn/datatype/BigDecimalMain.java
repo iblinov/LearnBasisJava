@@ -1,8 +1,7 @@
-package com.epam.learn.datatypes;
+package com.epam.learn.datatype;
 
 
 import java.math.BigDecimal;
-import java.math.MathContext;
 import java.math.RoundingMode;
 
 public class BigDecimalMain {
