@@ -4,12 +4,12 @@
     <Properties>
         <property name="LOG_DIR">logs</property>
         <property name="ARCHIVE_LOG_DIR">${LOG_DIR}/archive</property>
-        <property name="pattern_file">%d{HH:mm:ss.SSS} [%c{1}] %-5level %logger{1} - %msg%n</property>
+        <property name="pattern_file">%d{HH:mm:ss.SSS} [%t] %-5level %logger{1} - %msg%n</property>
     </Properties>
 
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%c{1}] %-5level %logger{36} - %msg%n"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{1} - %msg%n"/>
         </Console>
 
         <RollingFile name="FileRolling" filename="logs/text_log.log" append="true"
