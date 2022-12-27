@@ -14,6 +14,13 @@ public class StudentGroup {
   public List<Student> getStudents() {
     return students;
   }
+  public void addStudent(Student student) {
+    students.add(student);
+  }
+
+  public boolean remove(Student o) {
+    return students.remove(o);
+  }
 
   public void setStudents(List<Student> students) {
     this.students = students;

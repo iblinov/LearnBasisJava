@@ -1,8 +1,8 @@
 package com.epam.learn.edu.service.impl;
 
 import com.epam.learn.edu.entity.Student;
-import com.epam.learn.edu.entity.StudentGroup;
 import com.epam.learn.edu.service.StudentService;
+import com.epam.learn.edu.entity.StudentGroup;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -8,12 +8,17 @@ public class Student {
 
   private String name;
   private double averageMark;
-  private Ingredient type;
+ // private Ingredient type;
 
   public Student(String name, double averageMark, Ingredient type) {
    setName(name);
     this.averageMark = averageMark;
-    this.type = type;
+  //  this.type = type;
+  }
+  public Student(String name, double averageMark) {
+    setName(name);
+    this.averageMark = averageMark;
+
   }
 
   public String getName() {
@@ -36,12 +41,25 @@ public class Student {
     this.averageMark = averageMark;
   }
 
-  public Ingredient getType() {
-    return type;
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+
+    Student student = (Student) o;
+
+    if (Double.compare(student.averageMark, averageMark) != 0) return false;
+    return name != null ? name.equals(student.name) : student.name == null;
   }
 
-  public void setType(Ingredient type) {
-    this.type = type;
+  @Override
+  public int hashCode() {
+    int result;
+    long temp;
+    result = name != null ? name.hashCode() : 0;
+    temp = Double.doubleToLongBits(averageMark);
+    result = 31 * result + (int) (temp ^ (temp >>> 32));
+    return result;
   }
 
   @Override
@@ -49,7 +67,6 @@ public class Student {
     return new StringJoiner(", ", Student.class.getSimpleName() + "[", "]")
             .add("name='" + name + "'")
             .add("averageMark=" + averageMark)
-            .add("type=" + type)
             .toString();
   }
 }
