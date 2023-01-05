@@ -8,17 +8,17 @@ public class Student {
 
   private String name;
   private double averageMark;
- // private Ingredient type;
 
-  public Student(String name, double averageMark, Ingredient type) {
-   setName(name);
-    this.averageMark = averageMark;
-  //  this.type = type;
-  }
   public Student(String name, double averageMark) {
     setName(name);
     this.averageMark = averageMark;
+  }
 
+  public  Student(String name) {
+    this.name = name;
+  }
+
+  public Student() {
   }
 
   public String getName() {
@@ -31,6 +31,7 @@ public class Student {
     } else {
       this.name = "John Doe";
     }
+
   }
 
   public double getAverageMark() {

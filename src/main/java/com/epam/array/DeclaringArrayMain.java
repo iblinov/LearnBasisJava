@@ -1,4 +1,4 @@
-package com.epam.learn.array;
+package com.epam.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;

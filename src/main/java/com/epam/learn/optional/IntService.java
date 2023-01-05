@@ -5,7 +5,7 @@ import java.util.Optional;
 
 public class IntService {
     public double average(int[] array) {
-        double sum = 0;
+        double sum = +0;
         for (int element : array) {
             sum += element;
         }
