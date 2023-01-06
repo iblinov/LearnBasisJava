@@ -5,7 +5,7 @@ import java.util.StringJoiner;
 public class Student {
   static final int MIN_SIZE_NAME = 4;
   static final int MAX_SIZE_NAME = 19;
-
+  public static String faculty = "MMF";
   private String name;
   private double averageMark;
 

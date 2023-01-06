@@ -1,6 +1,7 @@
 package com.epam.learn.edu.main;
 
 import com.epam.learn.edu.entity.Student;
+import com.epam.learn.edu.util.IdGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -14,12 +15,14 @@ public class EduMain {
   static Logger logger = LogManager.getLogger();
 
   public static void main(String[] args) {
+    IdGenerator.generateNextId();
     Student student = new Student("vasja", 4.9);
     Student student1 = new Student("vasja", 4.9);
     student1 = student;
     Student student2 = new Student("jack", 7.3);
     Student student3 = new Student("jane", 9.3);
-    student.setName("uuu");
+
+    student.setName("new");
     System.out.println(student.equals(student1));
     System.out.println(student == student1);
     System.out.println(student.hashCode() == student1.hashCode());

@@ -5,7 +5,11 @@ public class IdGenerator {
   private static final int MAX_VALUE = 99;
   
   private static int orderId = MIN_VALUE;
+
+  private IdGenerator() {
+  }
+
   public static int generateNextId() {
-    return orderId++;  // FIXME: 1/3/2023 
+    return orderId++;
   }
 }
