@@ -10,8 +10,6 @@ i
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 f
 6src/main/java/com/epam/learn/optional/UserService.java,e\2\e251d7d7ce40930a58cce3f46542ab8c30281c94
-b
-2src/main/java/com/epam/learn/cube/entity/Cube.java,5\f\5f5591617169bcd0c1cfe29e3728a36f00233a64
 g
 7src/main/java/com/epam/learn/optional/OptionalMain.java,6\a\6a7e7a855a704f41a4f4f9415c7a3410533b6937
 d
@@ -22,13 +20,9 @@ h
 8src/main/java/com/epam/learn/gift2/entity/SweetType.java,7\a\7a24455ab62e442f730322d508f01d1c22d1846d
 e
 5src/main/java/com/epam/learn/optional/IntService.java,4\a\4a249cdbc2659fc6bfadadd1644d292e7dc7ad24
-a
-1src/main/java/com/epam/learn/edu/entity/Base.java,3\1\3142d77549f84da6159c0e958028bb4a3cbd0038
 c
 3src/main/java/com/epam/learn/edu/main/BaseMain.java,9\0\9013fef8844690ff8bfeb024433ecf862959c7d1
 b
 2src/main/java/com/epam/learn/edu/main/EduMain.java,8\a\8ae5f5ed59026053f4fc9d120dd93291f040e6f7
 f
 6src/main/java/com/epam/learn/edu/util/IdGenerator.java,1\0\103fc2894cde0fe7c02feea849c9a5abd7cd0037
-d
-4src/main/java/com/epam/learn/edu/entity/Student.java,6\4\64ac14fa26f1e1332268981649e6de58b86dd7a3
