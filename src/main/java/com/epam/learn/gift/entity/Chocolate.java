@@ -2,8 +2,10 @@ package com.epam.learn.gift.entity;
 
 import java.util.StringJoiner;
 
-public class Chocolate extends Sweet{
- public enum Type{
+public class Chocolate extends Sweet {
+
+
+  public enum Type{
     MILK, WHITE, DARK
   }
   private Type type;
