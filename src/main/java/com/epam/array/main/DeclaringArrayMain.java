@@ -70,5 +70,8 @@ public class DeclaringArrayMain {
 //    var n = Integer.parseInt("6667");
 //    var m = Arrays.stream(a).asLongStream().average();
 //    var list = new ArrayList<String>();
+    String s = "22 44 32 true";
+    String regex = "(\\d+\\s){3}[true]{4}";
+    System.out.println(s.matches(regex));
   }
 }

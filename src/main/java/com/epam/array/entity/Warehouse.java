@@ -18,7 +18,7 @@ public class Warehouse {
     return map.put(key, value);
   }
 
-  public ArrayStatistics remove(Object key) {
+  public ArrayStatistics remove(Integer key) {
     return map.remove(key);
   }
 
