@@ -1,8 +1,6 @@
 package main;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.function.IntConsumer;
 import java.util.function.IntPredicate;
 import java.util.function.IntUnaryOperator;
@@ -12,16 +10,14 @@ public class StreamMain {
   public static void main(String[] args) {
     int q = 1;
     int a[] = {3, 7, 1, 9, 2, 2, 8};
-//    int res = Arrays.stream(a).reduce(1, (n1, n2) -> {
-//
-//      return n1 * n2;});
+    int res = Arrays.stream(a).reduce(1, (n1, n2) -> n1 * n2);
 //    System.out.println(res);
 //   Arrays.stream(a)
 //           .filter(n -> n > 5).forEach(System.out::println);
-            //.limit(5).filter(n -> n > 5).forEach(System.out::println);
-            //.map(n -> n * 10).forEach(System.out::println);
-            //.distinct().forEach(System.out::println);
-            //.sorted().forEach(System.out::println);
+    //.limit(5).filter(n -> n > 5).forEach(System.out::println);
+    //.map(n -> n * 10).forEach(System.out::println);
+    //.distinct().forEach(System.out::println);
+    //.sorted().forEach(System.out::println);
 
 //            .map(n -> n * 100)
 //            .boxed()
@@ -63,6 +59,17 @@ public class StreamMain {
     };
     Arrays.stream(a)
             .map(operator).forEach(consumer);
-    System.out.println("\n" +integerList);
+    System.out.println("\n" + integerList);
+
+
+    Comparator<Integer> comparator = (o1, o2) -> o1 - o2;
+Collections.sort(integerList, comparator);
+Collections.sort(integerList, (o1, o2) -> o2 - o1);
+    Comparator<String> comparator2 = new Comparator<String>() {
+      @Override
+      public int compare(String o1, String o2) {
+        return o1.length() - o2.length();
+      }
+    };
   }
 }
