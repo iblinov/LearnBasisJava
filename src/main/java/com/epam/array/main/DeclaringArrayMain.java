@@ -7,6 +7,8 @@ import com.epam.array.service.impl.ArrayServiceImpl;
 import com.epam.array.service.impl.ArrayStreamServiceImpl;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 enum Shape {
@@ -32,9 +34,10 @@ record Type(int id, StringBuilder filename) {
 
 public class DeclaringArrayMain {
 
-  //static final Integer a= Integer.parseInt("9uuu");
+  static Integer a= Integer.parseInt("9uuu");
 
   public static void main(String[] args) {
+    int b = 1+a;
 //    int t = 1;
 //    t = 9;
 //    Type obj = new Type(77, new StringBuilder("abc.txt"));
@@ -49,9 +52,9 @@ public class DeclaringArrayMain {
 //    roleStr ="t";
 //    int b = 1;
 //
-    ArrayReaderImpl reader = new ArrayReaderImpl();
-    String filename = "data\\arrays.txt";
-    int a[] = reader.readArray(filename);
+//    ArrayReaderImpl reader = new ArrayReaderImpl();
+//    String filename = "data\\arrays.txt";
+//    int a[] = reader.readArray(filename);
 //    CustomArray customArray = new CustomArray(a);
 //    System.out.println(customArray);
 //    ArrayService service = new ArrayServiceImpl();
@@ -70,8 +73,8 @@ public class DeclaringArrayMain {
 //    var n = Integer.parseInt("6667");
 //    var m = Arrays.stream(a).asLongStream().average();
 //    var list = new ArrayList<String>();
-    String s = "22 44 32 true";
-    String regex = "(\\d+\\s){3}[true]{4}";
-    System.out.println(s.matches(regex));
+      Shape shape = Shape.valueOf("TRIANGLE");
+      Shape shape1 = Shape.valueOf("tRIANGLE");
+
   }
 }
