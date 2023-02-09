@@ -34,10 +34,13 @@ record Type(int id, StringBuilder filename) {
 
 public class DeclaringArrayMain {
 
-  static Integer a= Integer.parseInt("9uuu");
+
 
   public static void main(String[] args) {
-    int b = 1+a;
+    ArrayService service = new ArrayServiceImpl();
+    CustomArray array = new CustomArray(new int[]{7, 2, 9, 5, 10, 0});
+   int max =  service.findMax(array);
+    System.out.println(max);
 //    int t = 1;
 //    t = 9;
 //    Type obj = new Type(77, new StringBuilder("abc.txt"));
@@ -73,8 +76,8 @@ public class DeclaringArrayMain {
 //    var n = Integer.parseInt("6667");
 //    var m = Arrays.stream(a).asLongStream().average();
 //    var list = new ArrayList<String>();
-      Shape shape = Shape.valueOf("TRIANGLE");
-      Shape shape1 = Shape.valueOf("tRIANGLE");
+//      Shape shape = Shape.valueOf("TRIANGLE");
+//      Shape shape1 = Shape.valueOf("tRIANGLE");
 
   }
 }
