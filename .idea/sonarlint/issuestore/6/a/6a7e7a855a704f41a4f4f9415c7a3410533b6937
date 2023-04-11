@@ -1,27 +1,0 @@
-
-^
-java:S1192"HDefine a constant instead of duplicating this literal "orElse " 6 times.(“µÙØ
-~
-java:S3655"\Call "optionalDouble.isPresent()" or "!optionalDouble.isEmpty()" before accessing the value.(ó«€Úüÿÿÿÿ8¤éº–Ø0
-e
-java:S2583"CChange this condition so that it does not always evaluate to "true"(Ë´ºâýÿÿÿÿ8¤éº–Ø0
-a
-java:S2583!"DChange this condition so that it does not always evaluate to "false"(Äá´£8¤éº–Ø0
-Y
-java:S1854"7Remove this useless assignment to local variable "res".(ó«€Úüÿÿÿÿ8¨éº–Ø0
-Q	java:S125	"<This block of commented-out lines of code should be removed.(öø›
-Q	java:S125"<This block of commented-out lines of code should be removed.(é­ï
-J
-java:S1481"(Remove this unused "res" local variable.(ó«€Úüÿÿÿÿ8«éº–Ø0
-N	java:S106"9Replace this use of System.out or System.err by a logger.(§º¼þ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(“µÙØ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¤¹½ÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ì‘½â
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆËí®
-N	java:S106"9Replace this use of System.out or System.err by a logger.(˜æÌ¦
-U	java:S106"9Replace this use of System.out or System.err by a logger.(± ªË8Š«¸–Ø0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¾‡æÛ8Š«¸–Ø0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒæÄøÿÿÿÿ8Š«¸–Ø0
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(éÌ¾Òúÿÿÿÿ8‹«¸–Ø0
-U	java:S106%"9Replace this use of System.out or System.err by a logger.(ÂåÓ˜8‹«¸–Ø0
-V	java:S125&"<This block of commented-out lines of code should be removed.(¾àïòÿÿÿÿÿ

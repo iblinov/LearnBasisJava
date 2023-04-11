@@ -1,8 +1,9 @@
 package com.epam.learn.edu.service.impl;
 
-import com.epam.learn.edu.entity.Student;
-import com.epam.learn.edu.entity.StudentGroup;
-import com.epam.learn.edu.service.StudentService;
+import com.epam.array.service.learn.edu.entity.Student;
+import com.epam.array.service.learn.edu.entity.StudentGroup;
+import com.epam.array.service.learn.edu.service.StudentService;
+import com.epam.array.service.learn.edu.service.impl.StudentServiceImpl;
 import org.testng.annotations.Test;
 
 import java.util.List;

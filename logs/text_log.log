@@ -27,3 +27,14 @@
 19:09:49.706 [main] INFO  StudentServiceImpl - Avg.= 25.799999999999997 .
 19:09:49.719 [main] INFO  StudentServiceImpl - Avg.= 25.799999999999997 .
 19:10:12.372 [main] INFO  StudentServiceImpl - Avg.= 25.799999999999997 .
+20:18:04.894 [main] ERROR DbMain - Unknown column 'lastname1' in 'field list'  42S22  1054
+20:18:49.954 [main] ERROR DbMain - Unknown column 'lastname1' in 'field list' -- 42S22 -- 1054
+20:19:21.179 [main] ERROR DbMain - Table 'users.students3' doesn't exist -- 42S02 -- 1146
+20:20:15.570 [main] ERROR DbMain - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT1 INTO students (lastname, average) VALUE ('иванов', 9.9)' at line 1 -- 42000 -- 1064
+20:21:00.274 [main] ERROR DbMain - Unknown column 'иванов' in 'field list' -- 42S22 -- 1054
+20:21:47.675 [main] ERROR DbMain - Column count doesn't match value count at row 1 -- 21S01 -- 1136
+20:22:55.527 [main] ERROR DbMain - Duplicate entry '55' for key 'students.PRIMARY' -- 23000 -- 1062
+20:23:38.845 [main] ERROR DbMain - Access denied for user 'root2'@'localhost' (using password: YES) -- 28000 -- 1045
+20:24:08.091 [main] ERROR DbMain - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. -- 08S01 -- 0
