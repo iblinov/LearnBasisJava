@@ -7,15 +7,14 @@ public class BaseThreadMain {
     System.out.println(talk.getState());
     talk.start(); // start of thread
     walk.start(); // start of thread
-    Thread.sleep(2);
+    Thread.sleep(20);
     System.out.println(walk.getState());
     System.out.println(talk.getState());
 // TalkThread t = new TalkThread(); just an object, not a thread
 // t.run(); or talk.run();
 // method will execute, but thread will not start!
-
     System.out.println("end");
-//    Thread.sleep(1000);
+    Thread.sleep(1000);
     System.out.println(walk.getState());
     System.out.println(talk.getState());
 

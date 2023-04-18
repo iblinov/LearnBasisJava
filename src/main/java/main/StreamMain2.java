@@ -22,6 +22,7 @@ public class StreamMain2 {
        Map<String, Integer> map = list.stream()
                .collect(Collectors.toMap(Function.identity(), s -> 1, (a, b) -> a + b));
     list.stream().flatMap(s -> Arrays.stream(s.split(""))).forEach(System.out::println);
-
+    int x = 2;
+    System.out.print(x++ * 5);
   }
 }

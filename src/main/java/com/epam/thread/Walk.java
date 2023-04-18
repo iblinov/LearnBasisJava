@@ -6,7 +6,7 @@ public class Walk extends Thread {
       for (int i = 0; i < 7; i++) {
         System.out.println("Walk " + i);
         try {
-          Thread.sleep(0);
+          Thread.sleep(10);
         } catch (InterruptedException e) {
           e.printStackTrace();
         }

@@ -12,7 +12,7 @@ public class ActionMain {
             .toList();
     ExecutorService executor = Executors.newSingleThreadExecutor();
     Future<Integer> future = executor.submit(new ActionCallable(list));
-  //  executor.shutdown();// stops service but not thread
+  // executor.shutdown();// stops service but not thread
    // executor.submit(new Thread());
     /* attempt to start will throw
     an exception */
