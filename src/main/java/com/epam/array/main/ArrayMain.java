@@ -7,6 +7,7 @@ import com.epam.array.reader.ArrayReader;
 import com.epam.array.reader.impl.ArrayReaderImpl;
 
 import java.util.Arrays;
+import java.util.UUID;
 import java.util.function.Supplier;
 
 public class ArrayMain {
@@ -22,5 +23,7 @@ public class ArrayMain {
     } catch (CustomException e) {
       System.err.println(e);
     }
+    String name = UUID.randomUUID().toString();
+    System.out.println(name);
   }
 }

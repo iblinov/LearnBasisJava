@@ -2,6 +2,7 @@ package com.epam.array.entity;
 
 import com.epam.array.observer.ArrayStatisticsObserver;
 import com.epam.array.observer.impl.ArrayStatisticsObserverImpl;
+import com.epam.array.util.IdGenerator;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -14,8 +15,10 @@ public class CustomArray {
 
   public CustomArray(int[] array) {
     setArray(array);
+    arrayId = IdGenerator.generateId();
     observer = new ArrayStatisticsObserverImpl();
   }
+
   public void revomeObserver() {
     observer = null;
   }
