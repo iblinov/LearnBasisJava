@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
-
+<Configuration status="INFO">
     <Properties>
         <property name="LOG_DIR">logs</property>
         <property name="ARCHIVE_LOG_DIR">${LOG_DIR}/archive</property>
-        <property name="pattern_file">%d{HH:mm:ss.SSS} [%t] %-5level %logger{1} - %msg%n</property>
+        <property name="pattern_file">%d{HH:mm:ss.SSS} [%t] %-5level %logger{5} - %msg%n</property>
     </Properties>
 
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{1} - %msg%n"/>
+            <PatternLayout pattern="%r %-5level %logger{1} - %msg%n"/>
         </Console>
 
-        <RollingFile name="FileRolling" filename="logs/text_log.log" append="true"
-                     filePattern="logs/${date:yyyy-MM-dd}/%d{yyyy-MM-dd_HH-mm}_%i.log">
+        <RollingFile name="FileRolling" filename="${LOG_DIR}/text_log.log" append="true"
+                     filePattern="${LOG_DIR}/${date:yyyy-MM-dd}/%d{yyyy-MM-dd_HH-mm}_%i.log">
             <PatternLayout pattern="${pattern_file}"/>
             <Policies>
-                <SizeBasedTriggeringPolicy size="10 KB"/>
+                <SizeBasedTriggeringPolicy size="1KB"/>
             </Policies>
             <DefaultRolloverStrategy max="10"/>
         </RollingFile>

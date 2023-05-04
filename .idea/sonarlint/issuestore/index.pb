@@ -8,8 +8,6 @@ Z
 *src/main/java/res/sweetdata2_be.properties,1\4\14ba8477bcbca014db1ee5b8685767bfb478f28b
 b
 2src/main/java/com/epam/array/entity/Warehouse.java,1\a\1aa4a24801ba32cf955abf4a7f2bd8f76663c07e
-d
-4src/main/java/com/epam/array/reader/ArrayReader.java,3\7\379f926691492aeb5bafeddc6ef8f6abb58b5019
 k
 ;src/main/java/com/epam/array/creator/RepositoryCreator.java,3\1\31d370fa671cae884cb9436d32499404890aa9ed
 h
@@ -36,18 +34,12 @@ Q
 !src/main/java/main/PriorMain.java,e\a\ea8034966ba9b045800e3a09be6e8b3a8fe7a17b
 N
 src/main/java/main/DbMain.java,2\b\2bd90622388af7b4eae46c3fc2f6d73f5372b899
-p
-@src/main/java/com/epam/array/validator/StringArrayValidator.java,3\b\3b290d817622f4b1e151fea6cc98e8ea2d00a304
 r
 Bsrc/main/java/com/epam/array/observer/ArrayStatisticsObserver.java,d\a\da7bfeabe647148b9d79355156610f9c6e9a182a
-i
-9src/main/java/com/epam/array/main/DeclaringArrayMain.java,f\a\fa40002c453a19598bc8fdd11bc26c59d93fce9c
 ]
 -src/main/java/com/epam/array/entity/Size.java,6\4\64ae46dd7c8e571b2ac601821bccea8d68a7e3cc
 `
 0src/main/java/com/epam/array/entity/Student.java,3\d\3d825125a0d4bb2d8aadf7219b9b23618a1e4f9d
-`
-0src/main/java/com/epam/array/main/PesonMain.java,5\3\53333367447fc792ba512dddc001083898cc84ac
 b
 2src/main/java/com/epam/array/main/ServiceMain.java,b\1\b162875d2a8d12a3845d5cbfb929d9e32afd0554
 a
@@ -214,18 +206,10 @@ g
 7src/main/java/com/epam/inheritance/PointActionImpl.java,6\4\64b40ad42784516775489e749c10a20b62c7464b
 _
 /src/main/java/com/epam/inheritance/Student.java,8\f\8fadf19368cb00bb7ce5b82ad86fe857e6578614
-Z
-*src/main/java/com/epam/matrix/MatMain.java,0\6\06443785a734f55be54aef843d3ec87a9bc06e20
-a
-1src/main/java/com/epam/matrix/MultiplyMatrix.java,7\3\73b55eaf84942d30e6021ef0de2ac31ab9072c31
 W
 'src/main/java/com/epam/thread/Test.java,d\1\d1c0c1d208245072ab3d88336efb4b0cc81cdca8
 V
 &src/main/java/task/HelloStrangers.java,7\4\74513ab6499b892661edc3ea84f3f66f0a304401
-A
-logs/text_log.log,6\6\660ba8026282b716d9db5a24b759b6cf85b4d1ec
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 _
 /src/main/java/com/epam/inheritance/Point1D.java,8\e\8e10cd0bcb1234a909e37d00eaba30cb4c698b17
 `
@@ -238,3 +222,9 @@ _
 /src/main/java/com/epam/array/entity/Person.java,e\4\e4b3d2774d5cbbe3b0e33e8fc6ad4a262bfe089a
 a
 1src/main/java/com/epam/inheritance/PointMain.java,a\7\a7b0f22504d2a2e77adadf1bc0149ec61f42902e
+m
+=src/test/java/com/epam/lines/service/LineServiceImplTest.java,4\8\482b27fae6a272b94f02ae27f9cb6f86b0c3242b
+l
+<src/main/java/com/epam/array/repository/ArrayRepository.java,7\c\7c2beaf91e51a3e88d717deb45666df2118c8b40
+`
+0src/main/java/com/epam/array/main/PesonMain.java,5\3\53333367447fc792ba512dddc001083898cc84ac
