@@ -6,10 +6,7 @@ import com.epam.array.service.ArrayService;
 import com.epam.array.service.impl.ArrayServiceImpl;
 import com.epam.array.service.impl.ArrayStreamServiceImpl;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 enum Shape {
   RECTANGLE, TRIANGLE, CIRCLE;
@@ -41,6 +38,13 @@ public class DeclaringArrayMain {
     CustomArray array = new CustomArray(new int[]{7, 2, 9, 5, 10, 0});
    int max =  service.findMax(array);
     System.out.println(max);
+//    HashMap<String, String> map = new HashMap<>();
+//    map.put(null, null);
+//    Hashtable<String, String> table = new Hashtable<>();
+//    table.put(null, null);
+    Properties props = new Properties();
+    props.put(null, "value");
+    System.out.println(props.size());
 //    int t = 1;
 //    t = 9;
 //    Type obj = new Type(77, new StringBuilder("abc.txt"));
