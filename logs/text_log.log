@@ -1,2 +1,3 @@
-21:00:08.452 [main] INFO  com.epam.matrix.MatMain - information
-21:00:08.463 [main] ERROR com.epam.matrix.MatMain - error!!!!
+19:27:17.140 [main] ERROR com.epam.xml.validator.BaseValidatorMain - dataxml/students.xml is not correct or valid. cvc-elt.1.a: Cannot find the declaration of element 'students'.
+19:28:56.016 [main] ERROR com.epam.xml.validator.BaseValidatorMain - dataxml/students.xml is not correct or valid. cvc-elt.1.a: Cannot find the declaration of element 'students'.
+19:59:45.350 [main] FATAL com.epam.xml.validator.StudentErrorHandler - 19 : 13 - The end-tag for element type "country" must end with a '>' delimiter.

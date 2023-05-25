@@ -12,6 +12,14 @@ import java.util.function.Predicate;
 public class ArrayRepository {
   private List<CustomArray> customArrays;
 
+  public boolean add(CustomArray customArray) {
+    return customArrays.add(customArray);
+  }
+
+  public boolean remove(CustomArray array) {
+    return customArrays.remove(array);
+  }
+
   public ArrayRepository(List<CustomArray> customArrays) {
     this.customArrays = customArrays;
   }

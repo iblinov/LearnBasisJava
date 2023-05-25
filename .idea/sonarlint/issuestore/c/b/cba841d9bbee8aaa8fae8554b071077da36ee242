@@ -1,0 +1,8 @@
+
+^
+java:S2583"CChange this condition so that it does not always evaluate to "true"(ÿÌÞ¼þÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ò‰§Ïýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ßÏ†—üÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(‰çñã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¸À›ò

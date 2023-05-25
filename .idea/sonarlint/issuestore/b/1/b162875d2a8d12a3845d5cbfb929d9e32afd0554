@@ -1,0 +1,12 @@
+
+R
+java:S1854"<Remove this useless assignment to local variable "optional".(ñ¨ûø
+R
+java:S1854"7Remove this useless assignment to local variable "len".(ÍĞº¶øÿÿÿÿ
+C
+java:S1481"(Remove this unused "len" local variable.(ÍĞº¶øÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¦ôĞ¬şÿÿÿÿ
+C
+java:S1481"-Remove this unused "optional" local variable.(ñ¨ûø
+O
+java:S1128"2Remove this unused import 'java.util.OptionalInt'.(š”üÏ8øÿ¢¾é0

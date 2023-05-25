@@ -1,0 +1,27 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "size".(Ð©ü¶ûÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "s2".(¨ÒÝ 
+Q
+java:S1854"6Remove this useless assignment to local variable "s1".(ôŠŒ ýÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "arr".(øŠÍÒûÿÿÿÿ
+K
+java:S1854
+"5Remove this useless assignment to local variable "o".(ÔÍ§û
+U
+java:S1854	":Remove this useless assignment to local variable "person".(½Ñã„üÿÿÿÿ
+F
+java:S1481	"+Remove this unused "person" local variable.(½Ñã„üÿÿÿÿ
+<
+java:S1481
+"&Remove this unused "o" local variable.(ÔÍ§û
+C
+java:S1481"(Remove this unused "arr" local variable.(øŠÍÒûÿÿÿÿ
+B
+java:S1481"'Remove this unused "s1" local variable.(ôŠŒ ýÿÿÿÿ
+=
+java:S1481"'Remove this unused "s2" local variable.(¨ÒÝ 
+D
+java:S1481")Remove this unused "size" local variable.(Ð©ü¶ûÿÿÿÿ

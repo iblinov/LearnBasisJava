@@ -25,5 +25,7 @@ public class ArrayMain {
     }
     String name = UUID.randomUUID().toString();
     System.out.println(name);
+
+
   }
 }

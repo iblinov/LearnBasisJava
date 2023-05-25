@@ -1,0 +1,22 @@
+
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(è¹“õ8û¡ª‹÷0
+O
+java:S1068"-Remove this unused "studentId" private field.(Ù¤Åíùÿÿÿÿ8ş¡ª‹÷0
+N
+java:S1068",Remove this unused "lastname" private field.(Ç—ùèüÿÿÿÿ8ş¡ª‹÷0
+R
+java:S1068"0Remove this unused "averageScore" private field.(¦¥§»úÿÿÿÿ8ş¡ª‹÷0
+M
+java:S1068"+Remove this unused "address" private field.(ßÍ˜²ıÿÿÿÿ8ş¡ª‹÷0
+E
+java:S1068	"(Remove this unused "city" private field.(“øÌà8ş¡ª‹÷0
+G
+java:S1068
+"*Remove this unused "street" private field.(ÕóÅ8ş¡ª‹÷0
+L
+java:S1068"/Remove this unused "houseNumber" private field.(¢ÂÚí8ş¡ª‹÷0
+K
+java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ8ş¡ª‹÷0
+N
+java:S1068",Remove this unused "telegram" private field.(Ÿ†‰øÿÿÿÿ8ş¡ª‹÷0

@@ -44,8 +44,8 @@ public class ArrayReaderImpl implements ArrayReader {
           }
         }
         System.out.println(Arrays.toString(arrTemp));
-        int[] arrres = Arrays.copyOf(arrTemp, counter);
-        System.out.println(Arrays.toString(arrres));
+        int[] arrRes = Arrays.copyOf(arrTemp, counter);
+        System.out.println(Arrays.toString(arrRes));
       }
     } catch (IOException e) {
       System.err.println(e);
@@ -62,7 +62,7 @@ public class ArrayReaderImpl implements ArrayReader {
   }
 
   @Override
-  public int[] readArray7(String filename) throws CustomException {
+  public int[] readArray7(String filename) throws CustomException{
     Path path = Path.of(filename);
     if (!Files.exists(path)) {
       System.out.println("file " + filename + " not exist");
@@ -86,8 +86,10 @@ public class ArrayReaderImpl implements ArrayReader {
         }
       }
     } catch (IOException e) {
-      throw new CustomException(e);
+      //log
+      throw new CustomException(" msg", e);
     }
-    throw new CustomException("file have't coorect lines");
+    //log
+    throw new CustomException("file have't correct lines");
   }
 }

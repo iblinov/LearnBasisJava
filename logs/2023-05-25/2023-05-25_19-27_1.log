@@ -1,0 +1,9 @@
+21:00:08.452 [main] INFO  com.epam.matrix.MatMain - information
+21:00:08.463 [main] ERROR com.epam.matrix.MatMain - error!!!!
+19:08:04.241 [main] INFO  com.epam.xml.validator.BaseValidatorMain - fine end
+19:08:58.506 [main] INFO  com.epam.xml.validator.BaseValidatorMain - fine end
+19:10:37.255 [main] INFO  com.epam.xml.validator.BaseValidatorMain - fine end
+19:15:32.036 [main] ERROR com.epam.xml.validator.BaseValidatorMain - dataxml/students.xml is not correct or valid. cvc-elt.1.a: Cannot find the declaration of element 'students'.
+19:18:02.299 [main] ERROR com.epam.xml.validator.BaseValidatorMain - dataxml/students.xml is not correct or valid. cvc-elt.1.a: Cannot find the declaration of element 'students'.
+19:22:14.690 [main] ERROR com.epam.xml.validator.BaseValidatorMain - dataxml/students.xml is not correct or valid. cvc-elt.1.a: Cannot find the declaration of element 'students'.
+19:23:28.641 [main] ERROR com.epam.xml.validator.BaseValidatorMain - dataxml/students.xml is not correct or valid. cvc-elt.1.a: Cannot find the declaration of element 'students'.

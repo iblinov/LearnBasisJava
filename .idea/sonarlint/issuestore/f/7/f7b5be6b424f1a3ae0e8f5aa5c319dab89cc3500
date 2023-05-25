@@ -1,0 +1,35 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "l".(Ï÷š‘şÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "s".(ÑƒöÑùÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "array".(°Ëí‘
+T
+java:S1854
+"9Remove this useless assignment to local variable "label".(Æø·€ûÿÿÿÿ
+P
+java:S1854	":Remove this useless assignment to local variable "result".(¾Úì
+L
+java:S1854"6Remove this useless assignment to local variable "ch".(³±İÁ
+R
+java:S1854"7Remove this useless assignment to local variable "obj".(–¦³„üÿÿÿÿ
+C
+java:S1481"(Remove this unused "obj" local variable.(–¦³„üÿÿÿÿ
+?
+java:S1481")Remove this unused "flag" local variable.(’ûƒ³
+=
+java:S1481"'Remove this unused "ch" local variable.(³±İÁ
+A
+java:S1481	"+Remove this unused "result" local variable.(¾Úì
+E
+java:S1481
+"*Remove this unused "label" local variable.(Æø·€ûÿÿÿÿ
+@
+java:S1481"*Remove this unused "array" local variable.(°Ëí‘
+A
+java:S1481"&Remove this unused "b" local variable.(Ö‡·¹üÿÿÿÿ
+A
+java:S1481"&Remove this unused "s" local variable.(ÑƒöÑùÿÿÿÿ
+A
+java:S1481"&Remove this unused "l" local variable.(Ï÷š‘şÿÿÿÿ
