@@ -1,14 +1,0 @@
-
-M
-java:S2589"7Remove this expression which always evaluates to "true"(—ð€î
-T
-java:S1854"9Remove this useless assignment to local variable "bool3".(ÎçËºüÿÿÿÿ
-E
-java:S1481"*Remove this unused "bool2" local variable.(òÐö½þÿÿÿÿ
-E
-java:S1481"*Remove this unused "bool3" local variable.(ÎçËºüÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(Ñ™ºÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(—ð€î
-Q	java:S125
-"<This block of commented-out lines of code should be removed.(õöÖ®
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¤ÿßÄüÿÿÿÿ

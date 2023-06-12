@@ -1,19 +1,0 @@
-
-Q
-java:S1854"6Remove this useless assignment to local variable "ds".(ïÅæîúÿÿÿÿ
-P
-java:S1854
-"5Remove this useless assignment to local variable "f".(ñû›Ùþÿÿÿÿ
-P
-java:S1854	"5Remove this useless assignment to local variable "d".(êâ²Þþÿÿÿÿ
-A
-java:S1481	"&Remove this unused "d" local variable.(êâ²Þþÿÿÿÿ
-A
-java:S1481
-"&Remove this unused "f" local variable.(ñû›Ùþÿÿÿÿ
-B
-java:S1481"'Remove this unused "ds" local variable.(ïÅæîúÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(“ÏÒÂ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(µÂ‡û
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ùüú
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Â˜†

@@ -1,18 +1,0 @@
-
-N
-java:S1854"8Remove this useless assignment to local variable "num3".(…‚¯±
-N
-java:S1854"8Remove this useless assignment to local variable "num2".(•ë´Ó
-M
-java:S1854"7Remove this useless assignment to local variable "num".(‡¶õü
-Q	java:S125"<This block of commented-out lines of code should be removed.(‡’Ú
->
-java:S1481"(Remove this unused "num" local variable.(‡¶õü
-?
-java:S1481")Remove this unused "num2" local variable.(•ë´Ó
-?
-java:S1481")Remove this unused "num3" local variable.(…‚¯±
-O
-java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(½èÕž
-Q	java:S125"<This block of commented-out lines of code should be removed.(™­¦°
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ì×ÿ¸ÿÿÿÿÿ
