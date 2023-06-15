@@ -9,8 +9,6 @@ W
 0src/main/java/com/epam/array/entity/Student.java,3\d\3d825125a0d4bb2d8aadf7219b9b23618a1e4f9d
 ]
 -src/main/java/com/epam/array/entity/Size.java,6\4\64ae46dd7c8e571b2ac601821bccea8d68a7e3cc
-_
-/src/main/java/com/epam/inheritance/Point2D.java,1\d\1deeec9d58f39f08c3fbe145f2cddb9e29090d84
 b
 2src/main/java/com/epam/array/main/ServiceMain.java,b\1\b162875d2a8d12a3845d5cbfb929d9e32afd0554
 \
@@ -19,8 +17,6 @@ c
 3src/main/java/com/epam/inheritance/PointAction.java,2\6\269fd05dfc2fc01e0b0596f4949da47906b1536d
 g
 7src/main/java/com/epam/inheritance/PointActionImpl.java,6\4\64b40ad42784516775489e749c10a20b62c7464b
-_
-/src/main/java/com/epam/inheritance/Point1D.java,8\e\8e10cd0bcb1234a909e37d00eaba30cb4c698b17
 `
 0src/main/java/com/epam/inheritance/Studmain.java,a\0\a0c5dc4ce0a0b4bbb40387e2d71de152b06faf03
 e

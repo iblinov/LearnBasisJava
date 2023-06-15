@@ -29,8 +29,6 @@ b
 \
 ,src/main/java/com/epam/inheritance/Dumb.java,0\2\0247e2fc9a2d98e1b462e796bef5bc8bae91cc5b
 _
-/src/main/java/com/epam/inheritance/Point2D.java,1\d\1deeec9d58f39f08c3fbe145f2cddb9e29090d84
-_
 /src/main/java/com/epam/inheritance/Point3D.java,6\b\6bffc063f3f2f7e6ce0d7d36afda246d2c12b7b8
 c
 3src/main/java/com/epam/inheritance/PointAction.java,2\6\269fd05dfc2fc01e0b0596f4949da47906b1536d
@@ -40,8 +38,6 @@ _
 /src/main/java/com/epam/inheritance/Student.java,8\f\8fadf19368cb00bb7ce5b82ad86fe857e6578614
 W
 'src/main/java/com/epam/thread/Test.java,d\1\d1c0c1d208245072ab3d88336efb4b0cc81cdca8
-_
-/src/main/java/com/epam/inheritance/Point1D.java,8\e\8e10cd0bcb1234a909e37d00eaba30cb4c698b17
 `
 0src/main/java/com/epam/inheritance/Studmain.java,a\0\a0c5dc4ce0a0b4bbb40387e2d71de152b06faf03
 e
