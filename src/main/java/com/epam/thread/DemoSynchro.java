@@ -18,7 +18,7 @@ class Pack {
     String s;
     while ((s = arrayDeque.poll()) == null) {
       try {
-        this.wait();
+        wait();
       } catch (InterruptedException e) {
         //log
       }

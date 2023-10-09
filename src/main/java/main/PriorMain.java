@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class PriorMain {
+
   public static void main(String[] args) {
     Comparator<String> comparator = ( o1,  o2) -> o2.charAt(0) - o1.charAt(0);
 
