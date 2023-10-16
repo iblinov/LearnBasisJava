@@ -4,3 +4,5 @@
 15:26:00.384 [main] ERROR main.DbMain - Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. -- 08S01 -- 0
+20:52:12.185 [main] INFO  edu.itacademy.first.main.IntMain - Hello World
+20:52:12.190 [main] ERROR edu.itacademy.first.main.IntMain - Hello

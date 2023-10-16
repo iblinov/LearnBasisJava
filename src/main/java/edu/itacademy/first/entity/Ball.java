@@ -3,6 +3,8 @@ package edu.itacademy.first.entity;
 import java.util.StringJoiner;
 
 public class Ball {
+  private static final int MIN_RADIUS_SM = 100;
+  private static final int MAX_RADIUS_SM = 500;
   private int radius;
   private String material;
   private String color;
