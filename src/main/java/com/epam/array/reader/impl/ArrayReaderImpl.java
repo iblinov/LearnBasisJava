@@ -8,6 +8,7 @@ import com.epam.array.validator.impl.StringArrayValidatorImpl;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
@@ -18,7 +19,9 @@ import java.util.List;
 public class ArrayReaderImpl implements ArrayReader {
   private static final String DEFAULT_FILENAME = "data\\arrays.txt";
   private static final String SPACE_DELIMITER = "\\s+";
-  public int[] readArray(String filename) {
+
+  @Override
+  public int[] readArray(String filename, Charset... charset) {
     Path path = Path.of(filename);
     if (!Files.exists(path)) {
       System.out.println("file " + filename + " not exist");
@@ -26,6 +29,9 @@ public class ArrayReaderImpl implements ArrayReader {
     }
     BufferedReader reader = null;
     int[] arrTemp = null;
+    if (charset.length == 0) {
+      charset[0] = StandardCharsets.UTF_8;
+    }
     try {
       reader = new BufferedReader(new FileReader(filename));
       String tmp;
@@ -62,13 +68,13 @@ public class ArrayReaderImpl implements ArrayReader {
   }
 
   @Override
-  public int[] readArray7(String filename) throws CustomException{
+  public int[] readArray7(String filename) throws CustomException {
     Path path = Path.of(filename);
     if (!Files.exists(path)) {
       System.out.println("file " + filename + " not exist");
       filename = DEFAULT_FILENAME;// or Exception
     }
-   Path path2 = FileSystems.getDefault().getPath(filename);
+    Path path2 = FileSystems.getDefault().getPath(filename);
     int[] result;
     try {//java7
       List<String> lines = Files.readAllLines(path2);
@@ -76,9 +82,9 @@ public class ArrayReaderImpl implements ArrayReader {
       StringArrayValidator validator = new StringArrayValidatorImpl();
       for (int i = 0; i < lines.size(); i++) {
         String strNum = lines.get(i);
-        if(validator.stringArrayValidate(strNum)){
-         String[] numArr = strNum.split(SPACE_DELIMITER);
-         result = new int[numArr.length];
+        if (validator.stringArrayValidate(strNum)) {
+          String[] numArr = strNum.split(SPACE_DELIMITER);
+          result = new int[numArr.length];
           for (int j = 0; j < numArr.length; j++) {
             result[j] = Integer.parseInt(numArr[j]);
           }

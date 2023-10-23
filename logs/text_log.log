@@ -6,3 +6,5 @@
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. -- 08S01 -- 0
 20:52:12.185 [main] INFO  edu.itacademy.first.main.IntMain - Hello World
 20:52:12.190 [main] ERROR edu.itacademy.first.main.IntMain - Hello
+20:47:58.906 [main] INFO  edu.itacademy.first.main.IntMain - Hello World
+20:47:58.910 [main] ERROR edu.itacademy.first.main.IntMain - Hello

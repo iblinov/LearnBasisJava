@@ -12,12 +12,12 @@ public class IntMain {
     logger.info("Hello World");
     logger.error("Hello");
     //int[] res = IntArrayFactory.createArray(20);
-    int[] res = IntArrayFactory.createBoundArray(20, 5 , 20);
+   // int[] res = IntArrayFactory.createBoundArray(20, 5 , 20);
    // System.out.println(res);
 //    for (int i = 0; i < res.length; i++) {
 //      System.out.println(res[i]);
 //    }
-    System.out.println(Arrays.toString(res));
+ //   System.out.println(Arrays.toString(res));
 
   }
 }

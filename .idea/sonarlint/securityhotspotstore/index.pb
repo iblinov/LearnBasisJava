@@ -499,3 +499,9 @@ j
 :src/main/java/edu/itacademy/first/service/BallService.java,2\6\26719b83fe0d10711961d69465f947267c8d82bd
 c
 3src/main/java/edu/itacademy/first/main/IntMain.java,e\c\ecb58fb9dfae306a4de2d79b692a5a33a4f8d8f9
+]
+-src/main/java/com/folder/auto/entity/Car.java,2\4\2436080380e61add77cf43748bcdaea74b0c11ad
+b
+2src/main/java/com/folder/auto/entity/Autopark.java,4\7\47043495bf9725a9b28562981ebf7816f3ddf280
+e
+5src/main/java/com/folder/auto/service/CarService.java,5\5\55a6d8dec2314175f9dbcb502c95c5f39a08f9eb
