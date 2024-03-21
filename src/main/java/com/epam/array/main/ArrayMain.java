@@ -14,7 +14,7 @@ public class ArrayMain {
   public static void main(String[] args) {
     ArrayReader reader = new ArrayReaderImpl();
     try {
-      int[] nums = reader.readArray7("data\\arrays.txt");
+      int[] nums = reader.readArray("data\\arrays.txt");
       System.out.println(Arrays.toString(nums));
       CustomArray array = CustomArrayFactory.createCustomArray(nums);
       System.out.println(array);
@@ -23,9 +23,9 @@ public class ArrayMain {
     } catch (CustomException e) {
       System.err.println(e);
     }
-    String name = UUID.randomUUID().toString();
-    System.out.println(name);
-
+//    String name = UUID.randomUUID().toString();
+//    System.out.println(name);
+String s = "\\b\\d+(\\.\\d+)?\\b";
 
   }
 }

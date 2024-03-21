@@ -25,17 +25,17 @@ public class ArrayReaderImpl implements ArrayReader {
     Path path = Path.of(filename);
     if (!Files.exists(path)) {
       System.out.println("file " + filename + " not exist");
-      filename = DEFAULT_FILENAME;// or Exception
+      filename = DEFAULT_FILENAME;// or ArrayException
     }
     BufferedReader reader = null;
     int[] arrTemp = null;
-    if (charset.length == 0) {
-      charset[0] = StandardCharsets.UTF_8;
-    }
+//    if (charset.length == 0) {
+//      charset[0] = StandardCharsets.UTF_8;
+//    }
     try {
       reader = new BufferedReader(new FileReader(filename));
       String tmp;
-      if ((tmp = reader.readLine()) != null) { //java 2
+      if ((tmp = reader.readLine()) != null) {
         System.out.println(tmp);
         String[] str = tmp.split(SPACE_DELIMITER);
         System.out.println(Arrays.toString(str));
