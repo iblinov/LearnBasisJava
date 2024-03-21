@@ -17,4 +17,9 @@ public class ArrayServiceImpl implements ArrayService {
     System.out.print("classic: ");
     return resMax;
   }
+
+  @Override
+  public int findMin(CustomArray array) {
+    return 0;
+  }
 }

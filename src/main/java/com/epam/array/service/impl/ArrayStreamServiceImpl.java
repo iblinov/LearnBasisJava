@@ -11,4 +11,9 @@ public class ArrayStreamServiceImpl implements ArrayService {
     System.out.print("stream: ");
     return Arrays.stream(array.getArray()).max().getAsInt();
   }
+
+  @Override
+  public int findMin(CustomArray array) {
+    return 0;
+  }
 }

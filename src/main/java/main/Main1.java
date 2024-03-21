@@ -1,5 +1,9 @@
 package main;
 
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,7 +14,13 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Main1 {
-  public static void main(String[] args) {
+    static Logger logger = LogManager.getLogger();
+
+    public static void main(String[] args) {
+        logger.log(Level.INFO, "First log");
+        logger.log(Level.ERROR, "first error");
+        logger.info("old style");
+        logger.warn("old style");
 //    IntStream s = IntStream.of(100);	//line1
 //    Stream i = s.boxed();				//line2
 //    DoubleStream y = s.mapToDouble(x -> x); //line3
@@ -30,6 +40,5 @@ public class Main1 {
         System.out.println(lst3.getClass());
 
 
-
-  }
+    }
 }

@@ -520,3 +520,15 @@ b
 2src/main/java/com/folder/auto/entity/Autopark.java,4\7\47043495bf9725a9b28562981ebf7816f3ddf280
 e
 5src/main/java/com/folder/auto/service/CarService.java,5\5\55a6d8dec2314175f9dbcb502c95c5f39a08f9eb
+?
+data/flight.txt,8\6\865e1c0162664a4bfff3eb7d12015747b75f0699
+n
+>src/main/java/edu/itacademy/first/reader/DataFlightReader.java,6\6\661110a5c5d148ddf8a0e1bb169e87611a135d40
+b
+2src/main/java/edu/itacademy/first/reader/Main.java,4\8\48a0d30713cc7607e5df805780334e178b3bdfd9
+d
+4src/main/java/com/epam/learn/operator/base/Main.java,4\8\48f62c999b1d1e097992511f6c36845ef2117055
+o
+?src/test/java/com/epam/learn/operator/base/MathServiceTest.java,2\a\2a7c7e52492867661f732e290d82de5c9a3cb01a
+k
+;src/main/java/com/epam/learn/operator/base/MathService.java,e\0\e09d68c8be6eed84b3afdd64e90c0c29c460712a
