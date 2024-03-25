@@ -12,16 +12,32 @@ import java.util.function.Predicate;
 public class ArrayRepository {
   private List<CustomArray> customArrays;
 
-  public boolean add(CustomArray customArray) {
-    return customArrays.add(customArray);
-  }
-
-  public boolean remove(CustomArray array) {
-    return customArrays.remove(array);
-  }
-
   public ArrayRepository(List<CustomArray> customArrays) {
     this.customArrays = customArrays;
+  }
+
+  public boolean add(CustomArray array) {
+    return customArrays.add(array);
+  }
+
+  public boolean remove(CustomArray o) {
+    return customArrays.remove(o);
+  }
+
+  public CustomArray get(int index) {
+    return customArrays.get(index);
+  }
+
+  public CustomArray set(int index, CustomArray element) {
+    return customArrays.set(index, element);
+  }
+
+  public void add(int index, CustomArray element) {
+    customArrays.add(index, element);
+  }
+
+  public CustomArray remove(int index) {
+    return customArrays.remove(index);
   }
 
   public List<CustomArray> getCustomArrays() {

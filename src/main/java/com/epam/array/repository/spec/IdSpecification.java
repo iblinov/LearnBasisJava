@@ -4,7 +4,6 @@ import com.epam.array.entity.CustomArray;
 
 public class IdSpecification implements Specification{
   private int id;
-
   public IdSpecification(int id) {
     this.id = id;
   }
