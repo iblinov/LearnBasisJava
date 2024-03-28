@@ -9,7 +9,9 @@ public class ArrayStreamServiceImpl implements ArrayService {
   @Override
   public int findMax(CustomArray array) {
     System.out.print("stream: ");
-    return Arrays.stream(array.getArray()).max().getAsInt();
+    return Arrays.stream(array.getArray())
+            .max()
+            .getAsInt();
   }
 
   @Override
