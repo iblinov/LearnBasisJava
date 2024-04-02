@@ -1,5 +1,6 @@
 package com.epam.learn.edu.entity;
 
+import java.util.Comparator;
 import java.util.StringJoiner;
 
 public class Student {
@@ -11,9 +12,14 @@ public class Student {
 
   public Student(String name, double averageMark) {
     setName(name);
-    this.averageMark = averageMark;
+    Student.this.averageMark = averageMark;
   }
-
+  public static class NameComparator implements Comparator<Student> {
+    @Override
+    public int compare(Student o1, Student o2) {
+      return o1.getName().compareTo(o2.getName());
+    }
+  }
   public  Student(String name) {
     this.name = name;
   }

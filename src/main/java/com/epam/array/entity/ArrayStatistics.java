@@ -9,5 +9,9 @@ public class ArrayStatistics {
   public ArrayStatistics(CustomArray array) {
     ////
   }
+ public ArrayStatistics(CustomArrayE array) {
+    ////
+  }
+
   ///
 }
