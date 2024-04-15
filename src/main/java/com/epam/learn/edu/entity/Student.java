@@ -55,8 +55,10 @@ public class Student {
 
     Student student = (Student) o;
 
-    if (Double.compare(student.averageMark, averageMark) != 0) return false;
-    return name != null ? name.equals(student.name) : student.name == null;
+    if (Double.compare(averageMark, student.averageMark) != 0) return false;
+    if (name != null ? !name.equals(student.name) : student.name != null) return false;
+
+    return true;
   }
 
   @Override

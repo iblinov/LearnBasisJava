@@ -24,7 +24,6 @@ public class ReplaceKLetter {
                 .map(word -> {
                     if (word.length() >= k) {
                         return word.substring(0, k - 1) + replacement + word.substring(k); //Применяем lambda-выражение
-
                     } else {
                         return word;
                     }

@@ -1,5 +1,6 @@
 package com.epam.array.main;
 
+
 import com.epam.array.entity.Student;
 import com.epam.array.service.Service;
 
@@ -10,6 +11,7 @@ public class ServiceMain {
   public static void main(String[] args) {
     int len = -3;
     Service service = new Service();
+
 //    OptionalInt r = service.area(len);
 //    if (r.isPresent() ) {
 //      int res = r.getAsInt();

@@ -21,7 +21,7 @@ public class ArrayReaderImpl implements ArrayReader {
   private static final String SPACE_DELIMITER = "\\s+";
 
   @Override
-  public int[] readArray(String filename, Charset... charset) {
+  public int[] readArray(String filename, Charset... charset) throws CustomException {
     Path path = Path.of(filename);
     if (!Files.exists(path)) {
       System.out.println("file " + filename + " not exist");
@@ -54,7 +54,8 @@ public class ArrayReaderImpl implements ArrayReader {
         System.out.println(Arrays.toString(arrRes));
       }
     } catch (IOException e) {
-      System.err.println(e);
+      // log error
+      throw new CustomException("ex", e);
     } finally {
       if (reader != null) {
         try {

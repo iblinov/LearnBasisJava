@@ -14,9 +14,9 @@ public class variant_a2 {
                 .map(c -> c + " ")
                 .collect(Collectors.joining(""));
         String numbers = Stream.of(text.split(""))
-                .map(c -> c.toUpperCase())
-                .filter(c -> c.matches("[A-ZА-Я]"))
-                .map(c -> ((int) c.charAt(0) - 64) + " ")
+                .map(c -> c.toLowerCase())
+                .filter(c -> c.matches("[a-z]"))
+                .map(c -> ((int) c.charAt(0) - 96) + " ")
                 .collect(Collectors.joining(""));
         System.out.println(letters);
         System.out.println(numbers);

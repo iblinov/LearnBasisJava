@@ -15,7 +15,6 @@ public class ReplaceWithNumber2 {
         System.out.print("Введите символ для замены: ");
         char symbol = scanner.next().charAt(0);
         String result = Stream.of(text.split("\\s+"))
-
                 .map(word -> {
                     if (k <= word.length()) {
                     char[] chars = word.toCharArray();
