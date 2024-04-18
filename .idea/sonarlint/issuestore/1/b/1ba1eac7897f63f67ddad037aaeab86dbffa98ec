@@ -1,0 +1,16 @@
+
+V
+java:S1854"9Remove this useless assignment to local variable "type2".(àéµØ8ê¢ð„‹1
+V
+java:S1854"9Remove this useless assignment to local variable "type1".(èŒ™ú8–´ó„‹1
+Z
+java:S1854
+"8Remove this useless assignment to local variable "type".(ó µÃüÿÿÿÿ8–´ó„‹1
+K
+java:S1481
+")Remove this unused "type" local variable.(ó µÃüÿÿÿÿ8ë¢ð„‹1
+G
+java:S1481"*Remove this unused "type1" local variable.(èŒ™ú8˜´ó„‹1
+G
+java:S1481"*Remove this unused "type2" local variable.(àéµØ8ãˆô„‹1
+]	java:S125"<This block of commented-out lines of code should be removed.(˜Œ¯¬ûÿÿÿÿ8–ûþ„‹1

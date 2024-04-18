@@ -1,0 +1,38 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(¤Åóÿÿÿÿÿ
+>
+java:S1604!"(Make this anonymous inner class a lambda(ğ‹ğ¸
+C
+java:S1604*"(Make this anonymous inner class a lambda(ÅÍÊ®ûÿÿÿÿ
+>
+java:S16042"(Make this anonymous inner class a lambda(ÂğÆÓ
+C
+java:S1604D"(Make this anonymous inner class a lambda(øûŞ‘üÿÿÿÿ
+Z
+java:S1854D"?Remove this useless assignment to local variable "comparator2".(øûŞ‘üÿÿÿÿ
+V
+java:S1854!"@Remove this useless assignment to local variable "intPredicate".(ğ‹ğ¸
+X
+java:S1854"=Remove this useless assignment to local variable "predicate".(¤Åóÿÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "res".(Ö“±õúÿÿÿÿ
+A
+java:S1481"&Remove this unused "q" local variable.(­§šóúÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ëÎıóùÿÿÿÿ
+C
+java:S1481"(Remove this unused "res" local variable.(Ö“±õúÿÿÿÿ
+m
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(¤Åóÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ûï‡“ùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(´Îèîùÿÿÿÿ
+I
+java:S1481".Remove this unused "predicate" local variable.(¤Åóÿÿÿÿÿ
+G
+java:S1481!"1Remove this unused "intPredicate" local variable.(ğ‹ğ¸
+Q	java:S125("<This block of commented-out lines of code should be removed.(âÿÀ’
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(å×ñûÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¶Æéûÿÿÿÿ
+K
+java:S1481D"0Remove this unused "comparator2" local variable.(øûŞ‘üÿÿÿÿ

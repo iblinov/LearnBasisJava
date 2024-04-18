@@ -1,0 +1,23 @@
+
+„
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "localInner".(²œº¼ıÿÿÿÿ8£ê£…‹1
+N
+java:S1610"1Convert the abstract class "A" into an interface.(¶¹«ı8§ê£…‹1
+d
+java:S2094	"BRemove this empty class, write its code or make it an "interface".(ÿÇ´äûÿÿÿÿ8®ê£…‹1
+_
+java:S2094
+"BRemove this empty class, write its code or make it an "interface".(ç€’…8¯ê£…‹1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(«ü 8±ê£…‹1
+U
+java:S1854"8Remove this useless assignment to local variable "size".(¿•»Æ8³ê£…‹1
+R
+java:S1854"6Remove this useless assignment to local variable "ob".(Õğí 8³ê£…‹1
+U
+java:S1854"8Remove this useless assignment to local variable "obv1".(–İ¤º8³ê£…‹1
+F
+java:S1481")Remove this unused "obv1" local variable.(–İ¤º8³ê£…‹1
+C
+java:S1481"'Remove this unused "ob" local variable.(Õğí 8´ê£…‹1
+F
+java:S1481")Remove this unused "size" local variable.(¿•»Æ8´ê£…‹1

@@ -1,0 +1,13 @@
+
+n
+java:S1104"QMake anInt a static final constant or non-public and provide accessors if needed.(õ·ð¬8ÛŒÉ›Ž1
+H
+java:S1444"+Make this "public static anInt" field final(õ·ð¬8ÛŒÉ›Ž1
+]	java:S125"<This block of commented-out lines of code should be removed.(Ã²Ã×ýÿÿÿÿ8•©É›Ž1
+D
+java:S3010""Remove this assignment of "anInt".(Ú Úëüÿÿÿÿ8þÕÎ›Ž1
+W
+java:S2209"5Change this instance-reference to a static reference.(Ú Úëüÿÿÿÿ8¯îº›Ž1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Þ·ÈÁûÿÿÿÿ8åŒÉ›Ž1
+W
+java:S2209"5Change this instance-reference to a static reference.(Þ·ÈÁûÿÿÿÿ8˜˜Î›Ž1

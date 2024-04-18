@@ -1,0 +1,20 @@
+19:36:25.217 [main] ERROR edu.itacademy.first.main.IntMain - Hello
+20:11:35.706 [main] INFO  main.Main1 - First log
+20:11:35.709 [main] ERROR main.Main1 - first error
+20:11:35.709 [main] INFO  main.Main1 - old style
+20:11:35.709 [main] WARN  main.Main1 - old style
+20:12:45.419 [main] INFO  main.Main1 - First log
+20:12:45.441 [main] ERROR main.Main1 - first error
+20:12:45.443 [main] INFO  main.Main1 - old style
+20:12:45.445 [main] WARN  main.Main1 - old style
+20:13:03.170 [main] INFO  main.Main1 - First log
+20:13:03.173 [main] ERROR main.Main1 - first error
+20:13:03.173 [main] INFO  main.Main1 - old style
+20:13:03.173 [main] WARN  main.Main1 - old style
+20:13:24.325 [main] INFO  main.Main1 - First log
+20:13:24.354 [main] ERROR main.Main1 - first error
+20:13:24.355 [main] INFO  main.Main1 - old style
+20:13:24.357 [main] WARN  main.Main1 - old style
+20:13:29.008 [main] INFO  main.Main1 - First log
+20:13:29.012 [main] ERROR main.Main1 - first error
+20:13:29.012 [main] INFO  main.Main1 - old style

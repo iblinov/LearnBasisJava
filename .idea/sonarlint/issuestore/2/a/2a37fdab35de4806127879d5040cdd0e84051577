@@ -1,0 +1,14 @@
+
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+J
+java:S1854"5Remove this useless assignment to local variable "b".(–ä@
+K
+java:S1854"5Remove this useless assignment to local variable "c".(ä²
+;
+java:S1481"&Remove this unused "b" local variable.(–ä@
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Œ®˜¾üÿÿÿÿ
+<
+java:S1481"&Remove this unused "c" local variable.(ä²
+V	java:S125"<This block of commented-out lines of code should be removed.(‘®Àûúÿÿÿÿ

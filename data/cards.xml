@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cards xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="cards.xsd">
+    <card id="A1" barcode="S4.f">
+        <thema>Animals</thema>
+        <type>Wildlife</type>
+        <country>USA</country>
+        <year>2020</year>
+        <author>
+            <firstName>John</firstName>
+            <lastName>Doe</lastName>
+        </author>
+        <valuable>true</valuable>
+    </card>
+    <card id="A2" barcode="S3.a">
+        <thema>History</thema>
+        <type>War</type>
+        <country>UK</country>
+        <year>2018</year>
+        <author>
+            <firstName>Jane</firstName>
+            <lastName>Smith</lastName>
+        </author>
+        <valuable>false</valuable>
+    </card>
+    <card id="A3">
+        <thema>Art</thema>
+        <type>Painting</type>
+        <country>Canada</country>
+        <year>2019</year>
+        <author>
+            <firstName>David</firstName>
+            <lastName>Lee</lastName>
+        </author>
+        <valuable>true</valuable>
+    </card>
+    <card id="A4">
+        <thema>Science</thema>
+        <type>Physics</type>
+        <country>Australia</country>
+        <year>2021</year>
+        <author>
+            <firstName>Emily</firstName>
+            <lastName>Wong</lastName>
+        </author>
+        <valuable>false</valuable>
+    </card>
+    <card id="A5">
+        <thema>Geography</thema>
+        <type>Maps</type>
+        <country>USA</country>
+        <year>2017</year>
+        <author>
+            <firstName>Michael</firstName>
+            <lastName>Johnson</lastName>
+        </author>
+        <valuable>true</valuable>
+    </card>
+    <card id="A6">
+        <thema>Music</thema>
+        <type>Rock</type>
+        <country>UK</country>
+        <year>2020</year>
+        <author>
+            <firstName>Samantha</firstName>
+            <lastName>Green</lastName>
+        </author>
+        <valuable>false</valuable>
+    </card>
+    <card id="A7">
+        <thema>Food</thema>
+        <type>Cuisine</type>
+        <country>Canada</country>
+        <year>2018</year>
+        <author>
+            <firstName>Robert</firstName>
+            <lastName>Chen</lastName>
+        </author>
+        <valuable>true</valuable>
+    </card>
+    <card id="A8">
+        <thema>Literature</thema>
+        <type>Novel</type>
+        <country>Australia</country>
+        <year>2019</year>
+        <author>
+            <firstName>Olivia</firstName>
+            <lastName>Nguyen</lastName>
+        </author>
+        <valuable>false</valuable>
+    </card>
+    <card id="A9">
+        <thema>CityScape</thema>
+        <type>Congratulatory</type>
+        <country>Belarus</country>
+        <year>2023</year>
+        <author>
+            <firstName>Ivan</firstName>
+            <lastName>Petrov</lastName>
+        </author>
+        <valuable>Thematic</valuable>
+    </card>
+    <card id="A10">
+        <thema>Nature</thema>
+        <type>Congratulatory</type>
+        <country>USA</country>
+        <year>2023</year>
+        <author>
+            <firstName>Oliver</firstName>
+            <lastName>Singer</lastName>
+        </author>
+        <valuable>Historical</valuable>
+    </card>
+</cards>

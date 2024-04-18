@@ -1,0 +1,12 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ºÕËÛ
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÒÒä8‰¿±úŠ1
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ
+I
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ
+J
+java:S1128"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜

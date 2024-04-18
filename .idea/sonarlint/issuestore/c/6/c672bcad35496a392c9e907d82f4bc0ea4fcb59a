@@ -1,0 +1,17 @@
+
+O
+java:S1854"9Remove this useless assignment to local variable "candy".(‘‘Ñ£
+D
+java:S1481")Remove this unused "list" local variable.(ÐÙ‹¸ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¦ºÈøÿÿÿÿ
+@
+java:S1481"*Remove this unused "candy" local variable.(‘‘Ñ£
+V	java:S125"<This block of commented-out lines of code should be removed.(Àµ³úÿÿÿÿ
+M	java:S106 "9Replace this use of System.out or System.err by a logger.(ù†Í?
+M	java:S106""9Replace this use of System.out or System.err by a logger.(ù†Í?
+M	java:S106$"9Replace this use of System.out or System.err by a logger.(ù†Í?
+V	java:S125%"<This block of commented-out lines of code should be removed.(Èª¸¬ÿÿÿÿÿ
+M	java:S106'"9Replace this use of System.out or System.err by a logger.(ù†Í?
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ÞÒ©Ø
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(•È®À
+Q	java:S1256"<This block of commented-out lines of code should be removed.(‡Ç±

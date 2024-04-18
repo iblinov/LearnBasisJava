@@ -1,0 +1,11 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "x".(«¹æÿÿÿÿÿ
+Y
+java:S1854"7Remove this useless assignment to local variable "map".(¿°ƒîùÿÿÿÿ8‹’©ûŠ1
+E
+java:S1197"*Move the array designators [] to the type.(éÈ±ëøÿÿÿÿ
+J
+java:S1481"(Remove this unused "map" local variable.(¿°ƒîùÿÿÿÿ8’©ûŠ1
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Á¹‹şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«¹æÿÿÿÿÿ

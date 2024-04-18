@@ -1,0 +1,12 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(¦’´…8…›êµ1
+L	java:S106'"+Replace this use of System.out by a logger.(Íó¦âûÿÿÿÿ8ˆ›êµ1
+L	java:S106)"+Replace this use of System.out by a logger.(† •šÿÿÿÿÿ8‰›êµ1
+L	java:S106*"+Replace this use of System.out by a logger.(÷·¹®ûÿÿÿÿ8Š›êµ1
+G	java:S1064"+Replace this use of System.out by a logger.(®ÍÙö8Œ›êµ1
+L	java:S1066"+Replace this use of System.out by a logger.(ÆÒïšøÿÿÿÿ8›êµ1
+L	java:S1069"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8›êµ1
+L
+java:S2093#"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8›êµ1
+G	java:S106J"+Replace this use of System.out by a logger.(¦’´…8›êµ1
+L	java:S106Q"+Replace this use of System.out by a logger.(ÎıĞòüÿÿÿÿ8‘›êµ1

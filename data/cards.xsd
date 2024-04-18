@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="cards">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="card" type="card" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="card">
+        <xsd:sequence>
+            <xsd:element name="thema" type="xsd:string" maxOccurs="unbounded"/>
+            <xsd:element name="type" type="xsd:string" maxOccurs="unbounded"/>
+            <xsd:element name="country" type="country" maxOccurs="1"/>
+            <xsd:element name="year" type="xsd:gYear" maxOccurs="1"/>
+            <xsd:element name="author" type="author" maxOccurs="unbounded"/>
+            <xsd:element name="valuable" maxOccurs="1"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:ID" use="required"/>
+        <xsd:attribute name="barcode" type="barcode" use="optional"/>
+    </xsd:complexType>
+    <xsd:simpleType name="barcode">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]+[0-9]+\.[a-z]"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="country">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Belarus"/>
+            <xsd:enumeration value="USA"/>
+            <xsd:enumeration value="Russia"/>
+            <xsd:enumeration value="UK"/>
+            <xsd:enumeration value="Australia"/>
+            <xsd:enumeration value="Canada"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:complexType name="author">
+        <xsd:sequence>
+            <xsd:element name="firstName" type="xsd:string"/>
+            <xsd:element name="lastName" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

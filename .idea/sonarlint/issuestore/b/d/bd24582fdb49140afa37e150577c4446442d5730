@@ -1,0 +1,24 @@
+
+J
+java:S1604	"(Make this anonymous inner class a lambda(ø×Õõøÿÿÿÿ8¨óÔ„‹1
+\
+java:S1854"?Remove this useless assignment to local variable "comparator4".(ÿÓ¨Ù8±óÔ„‹1
+\
+java:S1854"?Remove this useless assignment to local variable "comparator3".(Ëåê‰8±óÔ„‹1
+a
+java:S1854"?Remove this useless assignment to local variable "comparator2".(üÿâúÿÿÿÿ8±óÔ„‹1
+`
+java:S1854	">Remove this useless assignment to local variable "comparator".(ø×Õõøÿÿÿÿ8±óÔ„‹1
+Q
+java:S1481	"/Remove this unused "comparator" local variable.(ø×Õõøÿÿÿÿ8´óÔ„‹1
+u
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(üÿâúÿÿÿÿ8´óÔ„‹1
+R
+java:S1481"0Remove this unused "comparator2" local variable.(üÿâúÿÿÿÿ8µóÔ„‹1
+M
+java:S1481"0Remove this unused "comparator3" local variable.(Ëåê‰8¶óÔ„‹1
+M
+java:S1481"0Remove this unused "comparator4" local variable.(ÿÓ¨Ù8¶óÔ„‹1
+]	java:S125"<This block of commented-out lines of code should be removed.(×åÿûÿÿÿÿ8·óÔ„‹1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•È®À8¸óÔ„‹1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•È®À8«îÕ„‹1

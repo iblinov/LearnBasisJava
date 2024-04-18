@@ -1,0 +1,14 @@
+
+j
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(Ýùç¡þÿÿÿÿ8‚¡ßàˆ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜ã£¡ûÿÿÿÿ8¹£ßàˆ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ò«ù¸øÿÿÿÿ8»£ßàˆ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(·›ÿ»8¼£ßàˆ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(†“àí8¾£ßàˆ1
+X	java:S125"<This block of commented-out lines of code should be removed.(Øˆ²–8À£ßàˆ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(²³°Ó8Á£ßàˆ1
+9
+java:S1116"Remove this empty statement.(²³°Ó8Ã£ßàˆ1
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Ã¸¬¤ùÿÿÿÿ8Ç£ßàˆ1
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Æ’çÒÿÿÿÿÿ8Ê£ßàˆ1
+]	java:S125%"<This block of commented-out lines of code should be removed.(«˜Ö“ûÿÿÿÿ8Ë£ßàˆ1

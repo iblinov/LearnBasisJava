@@ -1,0 +1,11 @@
+
+U
+java:S1854	"8Remove this useless assignment to local variable "list".(ü¼ÒÜ8ºØéüŠ1
+F
+java:S1481	")Remove this unused "list" local variable.(ü¼ÒÜ8½ØéüŠ1
+X	java:S125
+"<This block of commented-out lines of code should be removed.(–Š˜–8ÌúÌüŠ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8½ØéüŠ1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8½ØéüŠ1

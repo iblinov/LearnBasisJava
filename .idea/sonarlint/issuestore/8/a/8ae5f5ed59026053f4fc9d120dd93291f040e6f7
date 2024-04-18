@@ -1,0 +1,54 @@
+
+_
+java:S2583"DChange this condition so that it does not always evaluate to "false"(ëşÁûÿÿÿÿ
+W
+java:S1854"<Remove this useless assignment to local variable "student3".(¹ ëÕşÿÿÿÿ
+Q
+java:S1854"<Remove this useless assignment to local variable "student2".(×“äx
+R
+java:S1854"<Remove this useless assignment to local variable "student1".(ŒÀñö
+Q
+java:S1854'"6Remove this useless assignment to local variable "d1".(Î«Ä•ûÿÿÿÿ
+K
+java:S1854%"6Remove this useless assignment to local variable "i3".(´‘³
+L
+java:S1854""6Remove this useless assignment to local variable "i1".(½ˆæˆ
+K
+java:S1854!"5Remove this useless assignment to local variable "i".(‹Ü½
+O
+java:S1854,"9Remove this useless assignment to local variable "bonus".(Öâÿä
+Q
+java:S18540"6Remove this useless assignment to local variable "ob".(©®Şùÿÿÿÿ
+O
+java:S1854."9Remove this useless assignment to local variable "bonus".(°â¶Ì
+B
+java:S1481"-Remove this unused "student2" local variable.(×“äx
+H
+java:S1481"-Remove this unused "student3" local variable.(¹ ëÕşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ‰ÏÄ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«Ñ½â
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦ˆÊâşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(–¸¼Éûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹ÅÇ—øÿÿÿÿ
+<
+java:S1481!"&Remove this unused "i" local variable.(‹Ü½
+=
+java:S1481""'Remove this unused "i1" local variable.(½ˆæˆ
+<
+java:S1481%"'Remove this unused "i3" local variable.(´‘³
+B
+java:S1481'"'Remove this unused "d1" local variable.(Î«Ä•ûÿÿÿÿ
+<
+java:S1481)"&Remove this unused "b" local variable.(æ‰Ö®
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(æ½³Ê
+@
+java:S1481,"*Remove this unused "bonus" local variable.(Öâÿä
+V	java:S125-"<This block of commented-out lines of code should be removed.(Û¯³ùÿÿÿÿ
+Q	java:S125/"<This block of commented-out lines of code should be removed.(±ÇÂÕ
+B
+java:S14810"'Remove this unused "ob" local variable.(©®Şùÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ï‹¦“
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(†ñÀÌıÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(×Æáî
+V	java:S125:"<This block of commented-out lines of code should be removed.(õù¿ùÿÿÿÿ

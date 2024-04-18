@@ -1,0 +1,21 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¶ŽÆ8ÝéÎ‚•1
+U
+java:S1854"8Remove this useless assignment to local variable "LIST".(¡¶ŽÆ8õÇþÐ•1
+F
+java:S1481")Remove this unused "LIST" local variable.(¡¶ŽÆ8›êÎ‚•1
+]	java:S125"<This block of commented-out lines of code should be removed.(¶ð·—üÿÿÿÿ8œêÎ‚•1
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(…æÇ¦8êÎ‚•1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ÀŽÜ¨8êÎ‚•1
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(ç’¤™8êÎ‚•1
+P
+java:S2201+".The return value of "ofNullable" must be used.(üÇü½ÿÿÿÿÿ8êÎ‚•1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ŸƒÖÀûÿÿÿÿ8ÈþÐ•1
+]
+java:S1128"@Remove this unused import 'com.epam.thread.port.ConnectionPool'.(¦¹€8ÈþÐ•1
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ÈþÐ•1
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ÈþÐ•1
+L
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8ÈþÐ•1
