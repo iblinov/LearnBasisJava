@@ -1,11 +1,11 @@
 package com.epam.array.creator;
 
 import com.epam.array.entity.CustomArray;
-import com.epam.array.repository.ArrayRepository;
+import com.epam.array.repository.Repository;
 
 import java.util.List;
 
 public interface RepositoryCreator {
-  ArrayRepository createFromListObject(List<CustomArray> customArrayList);
-  ArrayRepository createFromListArray(List<int[]> arraysList);
+  Repository createFromListObject(List<CustomArray> customArrayList);
+  Repository createFromListArray(List<int[]> arraysList);
 }

@@ -16,7 +16,7 @@ public class DataFlightReader {
       lines = Files.readAllLines(path, StandardCharsets.UTF_8);
      // System.out.println(lines);
     } catch (IOException e) {
-      e.printStackTrace();//fixme
+      e.printStackTrace();
     }
     return lines;
   }
