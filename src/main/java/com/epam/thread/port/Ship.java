@@ -1,5 +1,6 @@
 package com.epam.thread.port;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class Ship extends Thread {
@@ -20,13 +21,13 @@ public class Ship extends Thread {
     Berth berth = Port.getInstance().getBerth();
     System.out.println("Ship " + shipId + " started. in Berth =" +berth.getBerthId());
     try {
-      TimeUnit.MILLISECONDS.sleep(300);
+      TimeUnit.MILLISECONDS.sleep(1000+new Random().nextInt(4000));
       Port.currentNumberContainers.addAndGet(-containers);
     } catch (InterruptedException e) {
       Thread.currentThread().interrupt();
     } finally {
+      System.out.println("Ship " + shipId + " ended. with Berth =" + berth.getBerthId());
       Port.getInstance().releaseBerth(berth);
     }
-    System.out.println("Ship " + shipId + " ended. with Berth =" + berth.getBerthId());
   }
 }

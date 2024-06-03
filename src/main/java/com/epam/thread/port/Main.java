@@ -11,12 +11,12 @@ public class Main {
     int id = 100;
     //1
 //    for (int i = 0; i < 30; i++) {
-//      new Ship(++id, ShipAction.LOAD, 30, 70).start();
+//      new Ship(++id, ShipAction.UNLOAD, 30, 70).start();
 //    }
     //2
     ExecutorService service = Executors.newFixedThreadPool(30);
     for (int i = 0; i < 30; i++) {
-      service.execute(new Ship(1, ShipAction.LOAD, 30, 70));
+      service.execute(new Ship(++id, ShipAction.UNLOAD, 30, 70));
     }
     service.shutdown();
   }

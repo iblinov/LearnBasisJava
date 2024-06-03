@@ -13,12 +13,12 @@ public class Port {
   private static Lock lock = new ReentrantLock(true);
   private static Condition condition = lock.newCondition();
   private static AtomicBoolean isCreated = new AtomicBoolean(false);
-  public static final AtomicInteger MAX_CAPACITY = new AtomicInteger(1_000);
+  public static final int MAX_CAPACITY = 1_000;
   public static AtomicInteger currentNumberContainers;
   private Port() {
     berths = new ArrayDeque<>(5);
     int id = 1;
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 5; i++) {
       berths.push(new Berth(id++));
     }
     currentNumberContainers = new AtomicInteger(444);// random may be
